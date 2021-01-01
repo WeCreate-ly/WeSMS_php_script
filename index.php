@@ -3,8 +3,7 @@
 // WeSMS Endpoint 
 define ("endpoint", "https://rest.wesms.ly/api/v2/messages/send");
 // Access Token Key 
-// define ("access_token", "your_access_token_here");
-define ("access_token", "zV4wMUEd3g56vfwOaD9hbYFYEXQs3w");
+define ("access_token", "your_access_token_here");
 
 // function to send single sms 
 function sendSingleSMS($recipient,$body){
